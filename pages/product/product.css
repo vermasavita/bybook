@@ -54,17 +54,7 @@
   margin-right: 1rem;
 }
 
-/* .img-container{
-    border: 1px solid black;
-    width: 80%;
-} */
 
-/* .img-container img{
-    border: 1px solid black;
-    width: 80%;
-    object-fit: cover;
-    overflow: hidden;
-} */
 @media screen and (max-width: 750px) {
   .filter {
     display: none;
