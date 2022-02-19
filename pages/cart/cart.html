@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="https://uibook.netlify.app/css/components.css" />
+  <link
+    href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/pages/cart/ cart.css" />
+  <body>
+    <header class="header">
+      <div class="logo">ByBook</div>
+
+      <div class="search-container">
+        <form action="">
+          <input id="search" type="search" placeholder="Search" />
+          <label for="search" class="bx bx-search-alt-2"></label>
+        </form>
+      </div>
+
+      <div class="action-icon">
+        <a href="#" class="login"><i class="bx bxs-user-circle"></i></a>
+        <a href="/pages/wishlist/wishlist.html" class="icon">
+          <i class="bx bx-heart"></i>
+          <span>0</span>
+        </a>
+
+        <a href="/pages/cart/cart.html" class="icon">
+          <i class="bx bx-cart"></i>
+          <span>0</span>
+        </a>
+      </div>
+    </header>
+    <section class="checkout">
+      <div class="myCart">
+        <div class="shopping-cart">
+          <div class="image">
+            <img
+              src="https://m.media-amazon.com/images/I/51EIrsuW-SL._AC_UY218_.jpg"
+              alt="book-image"
+            />
+          </div>
+
+          <div class="content">
+            <h2>Rich Dad & Poor Dad</h2>
+            <h4>₹400 <strike>₹800</strike></h4>
+            <h6>50% off</h6>
+
+            <p class="qty">
+              Quantity:
+              <input type="number" value="2" />
+            </p>
+
+            <p class="cart-btn">
+              <i class="fa fa-trash"></i>
+              <span>Remove</span>
+            </p>
+
+            <p class="cart-btn">
+              <i class="fa fa-heart"></i>
+              <span>Add to Wishlist</span>
+            </p>
+          </div>
+        </div>
+        <div class="shopping-cart">
+          <div class="image">
+            <img
+              src="https://m.media-amazon.com/images/I/51nNzmof5yL._AC_UY218_.jpg"
+              alt="book-image"
+            />
+          </div>
+
+          <div class="content">
+            <h2>Rich Dad & Poor Dad</h2>
+            <h4>₹400 <strike>₹800</strike></h4>
+            <h6>50% off</h6>
+
+            <p class="qty">
+              Quantity:
+              <input type="number" value="4" />
+            </p>
+
+            <p class="cart-btn">
+              <i class="fa fa-trash"></i>
+              <span>Remove</span>
+            </p>
+
+            <p class="cart-btn">
+              <i class="fa fa-heart"></i>
+              <span>Add to Wishlist</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="shopping-cart">
+          <div class="image">
+            <img
+              src="https://m.media-amazon.com/images/I/519SZL7xKvL._AC_UY218_.jpg"
+              alt="book-image"
+            />
+          </div>
+
+          <div class="content">
+            <h2>Rich Dad & Poor Dad</h2>
+            <h4>₹400 <strike>₹800</strike></h4>
+            <h6>50% off</h6>
+
+            <p class="qty">
+              Quantity:
+              <input type="number" value="1" />
+            </p>
+
+            <p class="cart-btn">
+              <i class="fa fa-trash"></i>
+              <span>Remove</span>
+            </p>
+
+            <p class="cart-btn">
+              <i class="fa fa-heart"></i>
+              <span>Add to Wishlist</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="price-cart">
+        <h1>Price Details</h1>
+        <hr />
+
+        <h4><span>Subtotal:</span><span>₹ 1200 </span></h4>
+        <h4><span>Tax (5%):</span><span>₹ 60</span></h4>
+        <h4><span>Shipping:</span><span>₹ 40</span></h4>
+        <hr />
+
+        <h3><span>Total</span><span>₹ 1300</span></h3>
+        <hr />
+
+        <p>You will save <span>₹ 1200</span> on this order</p>
+
+        <div class="place-order"><button>Place Order</button></div>
+      </div>
+    </section>
+  </body>
+</html>
