@@ -16,9 +16,6 @@ html {
   height: 4.5rem;
 }
 
-.container .header .logo {
-}
-
 .search-container {
   border: 1px solid var(--light-grey-color);
   border-radius: 10px;
@@ -45,26 +42,50 @@ html {
 }
 
 .hero-banner-container {
-  position: relative;
-  height: 50rem;
-  overflow: hidden;
-  background: url(https://dispatch.barnesandnoble.com/content/dam/ccr/homepage/daily/2022/02/01/Gateway_Billboard-C_OMP.jpg)
-    no-repeat center;
-  background-size: cover;
+  min-height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  }
+
+  .hero-banner-container img {
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+.container .book-category{
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 
-.hero-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
+.book-category a{
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  text-transform: uppercase;
-}
-
-.hero-banner-container .btn {
-  background-color: aqua;
+  font-size: 3rem;
+  padding: 6rem;
+  text-decoration: none;
+  font-family: cursive;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  margin: 1rem 2rem;
+  border-radius: 5px;
+  color: var(--black-color);
+  background: -webkit-linear-gradient(120deg, #f6f7f8 40%, #34cbe6 60%);
 }
 
 .new-release .new-release-head {
@@ -74,18 +95,18 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 1rem; */
-  /* border: 1px solid black; */
 }
 
 .new-release .new-release-head h3 {
   font-size: 1.5rem;
-  padding-left: 1rem;
+  padding-left: 2.5rem;
   color: var(--head-text-color);
 }
 
 .new-release .new-release-head .btn {
   background-color: var(--ecomm-primary-color);
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .new-release .new-release-head .link {
