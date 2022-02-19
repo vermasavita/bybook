@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://uibook.netlify.app/css/components.css" />
+<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/pages/wishlist/wishlist.css">
+<link rel="stylesheet" href="/pages/product/product.css">
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">ByBook</div>
+
+            <div class="search-container">
+                <form action="">
+                    <input id="search" type="search" placeholder="Search" />
+                    <label for="search" class="bx bx-search-alt-2"></label>
+                </form>
+            </div>
+
+            <div class="action-icon">
+                <a href="#" class="login"><i class='bx bxs-user-circle'></i></a>
+                <a href="/pages/wishlist/wishlist.html" class="icon">
+                    <i class="bx bx-heart"></i>
+                    <span>0</span>
+                </a>
+
+                <a href="/pages/cart/cart.html" class="icon">
+                    <i class="bx bx-cart"></i>
+                    <span>0</span>
+                </a>
+            </div>
+        </header>
+        <section class="product-listing">
+            <div class="filter">
+                <div class="filter-heading">
+                    Filters
+                    <a href="#">Clear</a>
+                </div>
+                <div class="price-range">
+                    Price
+                    <ul>
+                        <li>500</li>
+                        <li>1000</li>
+                        <li>5000</li>
+                    </ul>
+                    <label for="price-range-ipt"></label>
+                    <input class="price-range-ipt" type="range" />
+                </div>
+                <div class="product-category">
+                    Category
+                    <div class="preference">
+                        <input class="category-checkbox" id="kindle" type="checkbox" />
+                        <label for="kindle">Kindle Store</label>
+                    </div>
+                    <div class="preference">
+                        <input class="category-checkbox" id="Literature"type="checkbox" />
+                        <label for="Literature">Literature &
+                            Fiction</label>
+                    </div>
+                    <div class="preference">
+                        <input class="category-checkbox" id="Business" type="checkbox" />
+                        <label for="Business">Business &
+                            Economics</label>
+                    </div>
+                    <div class="preference">
+                        <input class="category-checkbox" id="Spirituality" type="checkbox" />
+                        <label for="Spirituality">New Age &
+                            Spirituality</label>
+                        
+                    </div>
+                    <div class="preference">
+                        <input class="category-checkbox" id="Society" type="checkbox" />
+                        <label for="Society">Society & Culture</label>
+                    </div>
+                </div>
+                <div class="rating">
+                    Rating
+                    <div class="preference">
+                        <input id="four-star"class="rating-radio" type="radio" />
+                        <label for="four-star">4 stars & above</label>
+                    </div>
+                    <div class="preference">
+                        <input id="three-star" class="rating-radio" type="radio" />
+                        <label for="three-star">3 stars & above</label>
+                    </div>
+                    <div class="preference">
+                        <input id="two-star" class="rating-radio" type="radio" />
+                        <label for="two-star">2 stars & above</label>
+                    </div>
+                    <div class="preference">
+                        <input id="one-star" class="rating-radio" type="radio" />
+                        <label for="one-star">1 stars & above</label>
+                    </div>
+                </div>
+                <div class="price-sort">
+                    Sort by
+                    <div class="preference">
+                        <input class="pricehl" type="radio" />
+                        <label for="rating-radio">Price - Low to High</label>
+                    </div>
+                    <div class="preference">
+                        <input class="pricehl" type="radio" />
+                        <label for="rating-radio">Price - High to Low</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid-container">
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+
+                </div>
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+
+                </div>
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+
+                </div>
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+
+                </div>
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+
+                </div>
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+
+                </div>
+                <div class="cart">
+
+                    <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/81zHwTa288L._AC_SY200_.jpg" alt="" />
+                        <ul class="product-action-icon">
+                            <li>
+                                <i class="bx bx-heart" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-name">
+                            <h3>The Everyday Hero</h3>
+                        </div>
+
+                        <div class="product-price">
+                            <h2>₹400</h2>
+                            <div class="product-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a href="">Add to Cart</a>
+                    </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
