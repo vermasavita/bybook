@@ -1,0 +1,146 @@
+:root {
+  --ecomm-primary-color: rgba(17, 144, 230, 0.733);
+  --secondary-color: rgb(255, 255, 255);
+  --head-text-color: rgb(116, 115, 115);
+  --light-grey-color: rgb(238, 235, 235);
+  --red-color: red;
+  --black-color: black;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container .header {
+  background-color: var(--ecomm-primary-color);
+  height: 4.5rem;
+}
+
+.container .header .logo {
+}
+
+.search-container {
+  border: 1px solid var(--light-grey-color);
+  border-radius: 10px;
+}
+
+.header .search-container #search {
+  color: black;
+}
+
+.container .action-icon .login {
+  color: var(--head-text-color);
+  background: none;
+  padding: 0;
+}
+
+.container .header .action-icon .icon i,
+.action-icon .login i {
+  color: var(--secondary-color);
+}
+
+.container .header .action-icon .icon span {
+  color: var(--secondary-color);
+  background-color: var(--red-color);
+}
+
+.hero-banner-container {
+  position: relative;
+  height: 50rem;
+  overflow: hidden;
+  background: url(https://dispatch.barnesandnoble.com/content/dam/ccr/homepage/daily/2022/02/01/Gateway_Billboard-C_OMP.jpg)
+    no-repeat center;
+  background-size: cover;
+}
+
+.hero-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-banner-container .btn {
+  background-color: aqua;
+}
+
+.new-release .new-release-head {
+  margin-top: 2rem;
+  padding: 0rem 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 1rem; */
+  /* border: 1px solid black; */
+}
+
+.new-release .new-release-head h3 {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  color: var(--head-text-color);
+}
+
+.new-release .new-release-head .btn {
+  background-color: var(--ecomm-primary-color);
+}
+
+.new-release .new-release-head .link {
+  height: 1rem;
+  width: 2rem;
+  color: var(--secondary-color);
+}
+
+.container .new-release .release-container {
+  border-radius: 4px;
+  min-height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  overflow-x: scroll;
+  margin-right: 1rem;
+}
+
+.release-container .ecommerce-card-box {
+  max-width: 25rem;
+  cursor: pointer;
+  text-align: center;
+  min-height: 5rem;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.release-container .ecommerce-card-box .add-to-cart {
+  background-color: var(--ecomm-primary-color);
+  border-radius: 0;
+  padding: 0.2rem;
+}
+
+@media screen and (max-width: 630px) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .search-container {
+    width: 45%;
+  }
+
+  .main-container {
+    margin: 2rem;
+  }
+}
