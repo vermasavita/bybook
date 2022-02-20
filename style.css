@@ -25,14 +25,66 @@ html {
   color: black;
 }
 
-.container .action-icon .login {
-  color: var(--head-text-color);
-  background: none;
-  padding: 0;
+.action-icon .btn {
+  background-color: var(--secondary-color);
+  box-shadow: none;
+  padding: 0.5rem;
+  position: relative;
 }
 
-.container .header .action-icon .icon i,
-.action-icon .login i {
+.action-icon .btn a {
+  text-align: center;
+  margin: 0;
+  color: var(--black-color);
+}
+
+.dropdown li {
+  list-style: none;
+}
+
+.dropdown-menu {
+  display: none;
+  width: 20rem;
+  position: absolute;
+  padding: 1rem;
+  left: -7rem;
+  bottom: -15.5rem;
+  font-size: 1.5rem;
+  background-color: var(--secondary-color);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.dropdown-menu .signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown .dropdown-menu li {
+  display: flex;
+  align-items: center;
+  color: var(--ecomm-primary-color);
+}
+
+.dropdown .dropdown-menu li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.dropdown .dropdown-menu li a i {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--ecomm-primary-color);
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.dropdown .btn:hover .dropdown-menu{
+  display: block;
+}
+.container .header .action-icon .icon i {
   color: var(--secondary-color);
 }
 
@@ -48,15 +100,15 @@ html {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2rem initial 1.5rem initial
-  }
+  margin: 2rem initial 1.5rem initial;
+}
 
-  .hero-banner-container img {
-    overflow: hidden;
-    object-fit: cover;
-  }
+.hero-banner-container img {
+  overflow: hidden;
+  object-fit: cover;
+}
 
-.container .book-category{
+.container .book-category {
   width: 100%;
   height: 25rem;
   display: flex;
@@ -68,7 +120,7 @@ html {
   scrollbar-width: thin;
 }
 
-.book-category a{
+.book-category a {
   height: 20rem;
   width: 20rem;
   display: flex;
