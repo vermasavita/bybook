@@ -10,18 +10,11 @@
 .login-credential .login-email, .login-credential  .login-password, .login-credential .confirm-password{
     font-size: 1.2rem;
     position: relative;
+    /* border: 1px solid black; */
 } 
 
 .login-credential .confirm-password{
     margin-top: 2rem;
-}
-
-.login-credential .confirm-password label, .login-credential .login-password label{
-    font-size: 1.5rem;
-    position: absolute;
-    top: 2.5rem;
-    right: 1.5rem;
-    color: var(--black-color);
 }
 
 @media screen and (max-width: 1200px) {

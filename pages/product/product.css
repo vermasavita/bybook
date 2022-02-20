@@ -37,6 +37,11 @@
   font-weight: 100;
 }
 
+.container .grid-container .cart{
+  box-shadow: var(--ecomm-primary-color) 0px 1px 4px;
+  background-color: var(--light-grey-color);
+}
+
 .price-range .preference,
 .product-category .preference,
 .rating .preference,

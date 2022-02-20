@@ -32,3 +32,7 @@ h1 {
 .grid-container .cart:hover {
   transform: scale(1.04);
 }
+
+.dropdown-menu{
+  bottom: -16.5rem;
+}
