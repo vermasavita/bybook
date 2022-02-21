@@ -4,7 +4,15 @@ An ecommerce website for books
 
 ## 🔥 About the project
 
-<!-- Will add it -->
+
+
+https://user-images.githubusercontent.com/82254618/154887203-6b486c96-fbbc-467a-86c9-a7e3095ee345.mov
+
+
+
+https://user-images.githubusercontent.com/82254618/154887210-34e14908-53ee-4514-8f2f-13c761fa67c4.mov
+
+
 
 ## 🤔 How to use it
 
